@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(78, 78, 158);
+}
+.logo{
+    width:100px;
+    margin: 10px;
+}
+.nav_list{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    width: 300px;
+    margin-right: 50px;
+    padding:25px;
+    color: white;
+    font-size: 20px;
+}
+.card{
+    height: 30rem;
+    background-color: rgb(10, 10, 141);
+    color: cornsilk;
+    text-align: center;
+}
+h4{
+    padding: 70px;
+}
+
+.btn1{
+    margin: 20px;
+    width:7rem;
+    height: 30px;
+    background-color: rgb(93, 216, 210);
+    font-size: 15px;
+    color: white;
+}
+.btn2{
+    margin: 20px;
+    height:30px;
+    width: 7rem;
+    background-color: rgb(18, 121, 161);
+    font-size: 15px;
+    color: white;
+}
+.newsletter{
+    text-align: center;
+    background-color: rgb(154, 160, 179);
+    font-size: 20px;
+    height: 30px;
+    padding: 20px;
+}
+.main{
+    text-align: center;
+    height: 30rem;
+}
+
+h3{
+    padding: 5rem;
+}
+.main{
+    display: grid;
+}
+.main_list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    list-style: none;
+}
+.main_list>li>img{
+    width:50px;
+}
